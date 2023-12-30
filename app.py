@@ -167,7 +167,7 @@ async def convert_multiple(files: List[UploadFile] = File(...)):
         }
 
         # Make the request
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(timeout=500.0) as client:
             response = await client.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
             response_json = response.json()
 
