@@ -58,6 +58,9 @@ document.getElementById('upload-form').addEventListener('submit', function(e) {
     a.href = url;
     a.download = 'output.zip';
     a.click();
+
+    // Reload the page
+    location.reload();
   });
 });
 </script>
