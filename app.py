@@ -83,8 +83,8 @@ async def convert_single(file: UploadFile = File(...)):
 
     return FileResponse(output_file, media_type="text/plain")
 
-@app.get("/convert_directory/{input_dir}/{output_dir}")
-async def convert_directory(input_dir: str, output_dir: str):
+@app.get("/convert_directory/{input_dir}")
+async def convert_directory(input_dir: str):
     # Get all PDF files in the input directory
     pdf_files = glob.glob(f"./{input_dir}/*.pdf")
 
@@ -98,15 +98,15 @@ async def convert_directory(input_dir: str, output_dir: str):
             markdown_content += response_json['choices'][0]['message']['content']
             markdown_content += "\n---\n"  # Append a page break
 
-        # Save the markdown content to a file in the output directory
-        output_file = f"./{output_dir}/{os.path.splitext(os.path.basename(pdf_file))[0]}.txt"
+        # Save the markdown content to a file in the ./tmp directory
+        output_file = f"./tmp/{os.path.splitext(os.path.basename(pdf_file))[0]}.txt"
         with open(output_file, 'w') as f:
             f.write(markdown_content)
 
-    # Zip the output directory
-    shutil.make_archive(output_dir, 'zip', output_dir)
+    # Zip the ./tmp directory
+    shutil.make_archive("./tmp/output", 'zip', "./tmp")
 
-    return FileResponse(f"{output_dir}.zip", media_type="application/zip")
+    return FileResponse("./tmp/output.zip", media_type="application/zip")
 
 if __name__ == "__main__":
     import uvicorn
