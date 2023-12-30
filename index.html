@@ -10,9 +10,14 @@
   <input type="submit" value="Submit">
 </form>
 
+<div id="loading" style="display: none;">Uploading files, please wait...</div>
+
 <script>
 document.getElementById('upload-form').addEventListener('submit', function(e) {
   e.preventDefault();
+
+  // Show loading message
+  document.getElementById('loading').style.display = 'block';
 
   var formData = new FormData();
   var files = document.getElementById('files').files;
@@ -20,12 +25,15 @@ document.getElementById('upload-form').addEventListener('submit', function(e) {
     formData.append('files', files[i]);
   }
 
-  fetch('http://localhost:8031/convert_multiple', {
+  fetch('https://pdf-to-txt.replit.app/convert_multiple', {
     method: 'POST',
     body: formData
   })
   .then(response => response.blob())
   .then(blob => {
+    // Hide loading message
+    document.getElementById('loading').style.display = 'none';
+
     var url = window.URL.createObjectURL(blob);
     var a = document.createElement('a');
     a.href = url;
