@@ -84,15 +84,20 @@ async def convert_single(file: UploadFile = File(...)):
         markdown_content += response_json['choices'][0]['message']['content']
         markdown_content += "\n---\n"  # Append a page break
 
-    # Save the markdown content to a file
-    output_file = f"./output/{os.path.splitext(file.filename)[0]}.txt"
+    # Save the markdown content to a file in the ./tmp directory
+    output_file = f"./tmp/{os.path.splitext(file.filename)[0]}.txt"
     with open(output_file, 'w') as f:
         f.write(markdown_content)
 
     return FileResponse(output_file, media_type="text/plain")
 
+import os
+
 @app.post("/convert_multiple/")
 async def convert_multiple(files: List[UploadFile] = File(...)):
+    # Create a subdirectory in ./tmp for the text files
+    os.makedirs("./tmp/txt", exist_ok=True)
+
     for file in files:
         print(f"Processing file: {file.filename}")
 
@@ -105,22 +110,35 @@ async def convert_multiple(files: List[UploadFile] = File(...)):
             markdown_content += response_json['choices'][0]['message']['content']
             markdown_content += "\n---\n"  # Append a page break
 
-        # Save the markdown content to a file in the ./tmp directory
-        output_file = f"./tmp/{os.path.splitext(file.filename)[0]}.txt"
+        # Save the markdown content to a file in the ./tmp/txt directory
+        output_file = f"./tmp/txt/{os.path.splitext(file.filename)[0]}.txt"
         with open(output_file, 'w') as f:
             f.write(markdown_content)
 
         print(f"Successfully processed file: {file.filename}")
 
-    # Zip the ./tmp directory
-    shutil.make_archive("./tmp/output", 'zip', "./tmp")
+    # Zip the ./tmp/txt directory
+    zip_file = shutil.make_archive("./tmp/output", 'zip', "./tmp/txt")
+    print(f"Created zip file: {zip_file}")
 
-    # Delete all files in the ./tmp directory
-    files = glob.glob('./tmp/*')
+    # Check if the zip file exists
+    if os.path.exists(zip_file):
+        print(f"Zip file {zip_file} exists.")
+    else:
+        print(f"Zip file {zip_file} does not exist.")
+
+    # Delete all files in the ./tmp/txt directory
+    files = glob.glob('./tmp/txt/*')
     for f in files:
         os.remove(f)
 
-    return FileResponse("./tmp/output.zip", media_type="application/zip")
+    # Check again if the zip file exists
+    if os.path.exists(zip_file):
+        print(f"Zip file {zip_file} still exists.")
+    else:
+        print(f"Zip file {zip_file} does not exist anymore.")
+
+    return FileResponse(zip_file, media_type="application/zip")
 
 if __name__ == "__main__":
     import uvicorn
