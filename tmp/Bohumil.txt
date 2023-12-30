@@ -1,0 +1,392 @@
+```
+Bohumil
+CHARACTER NAME
+```
+
+|         |         |
+| ------- | ------- |
+| PLAYER NAME | gwjrabbit |
+| CLASS & LEVEL | Bard 5 |
+| BACKGROUND | Archive Initiate |
+| RACE | Half-Elf |
+| ALIGNMENT | (Milestone) |
+| EXPERIENCE POINTS |  |
+
+| STRENGTH | DEXTERITY | CONSTITUTION | INTELLIGENCE | WISDOM | CHARISMA |
+| -------- | --------- | ------------ | ------------ | ------ | -------- |
+| 0        | +2        | +1           | +2           | -1     | +4       |
+| (10)     | (15)      | (12)         | (14)         | (8)    | (19)     |
+
+```markdown
+| SAVING THROWS | |
+| -------------- | - |
+| +0 Strength    | (o) |
+| +5 Dexterity   | (o) |
+| +1 Constitution| (o) |
+| +5 Intelligence| (o) |
+| -1 Wisdom      | (o) |
+| +7 Charisma    | (o) |
+
+| SAVING THROW MODIFIERS                           |
+| ------------------------------------------------ |
+| Advantage against being charmed,                 |
+| and magic can't put you to sleep                 |
+
+| SKILLS            |   |     |     | SENSES                 |  |
+| ----------------- | - | --- | --- | ---------------------- | - |
+| +3 Acrobatics DEX | ● | ... | ... | passive WISDOM (PERCEPTION) | 10  |
+| +0 Animal Handling WIS | o | ... | ... | passive WISDOM (INSIGHT) | 10  |
+| +5 Arcana INT     | o | ... | ... | passive INTELLIGENCE (INVESTIGATION) | 15  |
+| +5 Athletics STR  | o | ... | ... | Darkvision 60 ft. |  |
+| +0 Deception CHA  | o |     |     |                         |  |
+| +5 History INT    | o |     |     |                         |  |
+| +0 Insight WIS    | o |     |     |                         |  |
+| +5 Intimidation CHA | o |   |     |                         |  |
+| +5 Investigation INT | o |   |     |                         |  |
+| +0 Medicine WIS   | o |     |     |                         |  |
+| +3 Nature INT     | o |     |     |                         |  |
+| +0 Perception WIS | o |     |     |                         |  |
+| +5 Performance CHA| o |     |     |                         |  |
+| +10 Persuasion CHA| ● |     |     |                         |  |
+| +3 Religion INT   | o |     |     |                         |  |
+| +3 Sleight of Hand DEX | o |   |  |                         |  |
+| +5 Stealth DEX    | o |     |     |                         |  |
+| +0 Survival WIS   | o |     |     |                         |  |
+```
+
+| INITIATIVE | ARMOR | SPEED |  | INSPIRATION | PROFICIENCY BONUS | ABILITY SAVE DC |  |
+| ---------- | ----- | ----- | - | ----------- | ---------------- | --------------- | - |
+| +3         | 14    | 30 ft. (Walking) | |             | +3              | 15              |  |
+
+|                                      |                       |                     |
+| ------------------------------------ | --------------------- | ------------------- |
+| HIT POINTS                           |                       |                     |
+| Max HP         33                    | Current HP            | Temp HP             |
+|                                       |                       |                     |
+| HIT DICE                              | DEATH SAVES           |                     |
+| Total 5d8                             | Successes (o)(o)(o) | Failures (o)(o)(o)  |
+
+```markdown
+| PROFICIENCIES & LANGUAGES  |
+| -------------------------- |
+| ==== ARMOR ====            |
+| Light Armor                |
+| ==== WEAPONS ====          |
+| Crossbow, Hand, Longsword, Rapier, |
+| Shortsword, Simple Weapons |
+| ==== TOOLS ====            |
+| Drum, Horn, Lyre           |
+| ==== LANGUAGES ====        |
+| Common, Deep Speech, Elvish, Goblin, |
+| Infernal, Telepathy, Undercommon     |
+```
+
+|         | IMMUNITIES - Magical Sleep |       |          |
+| ------- | -------------------------- | ----- | -------- |
+|         | DEFENSES                   |       |          |
+
+```markdown
+|   ACTIONS   |
+| ----------- |
+| ==== ACTIONS ====                     |
+| Standard Actions                      |
+| Attack, Cast a Spell, Dash, Disengage, Dodge, |
+| Help, Hide, Ready, Search, Use an Object,     |
+| Opportunity Attack, Grapple, Shove, Improvise,|
+| Two-Weapon Fighting, Interact with an Object  |
+| ==== BONUS ACTIONS ====                      |
+| Bardic Inspiration +/4 Short Rest             |
+| With a bonus action, a creature (other than yourself) |
+| within 60 ft. that can hear you gains an inspiration die |
+| (1d8). For 10 minutes, the creature can add it to one |
+| ability check, attack roll, or saving throw. This can be |
+| added after seeing the roll, but before knowing the outcome. |
+
+| ==== SPECIAL ABILITY====
+| Telekinetic: Shove
+| As a bonus action, you can try to telekinetically shove one creature you can see within 30 ft. of you. |
+| When you do so, the target must succeed on a Strength saving throw (DC 15) or be moved 5 ft. |
+| toward or away from you. A creature can willingly fail this save. |
+
+| ==== SPECIAL ====
+| Magical Inspiration
+| If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, |
+| the creature can roll the die and choose a target affected by the spell. That number rolled as bonus to the hit points regained or |
+| the damage dealt. The Bardic Inspiration die is then lost.
+```
+
+| WEAPON ATTACKS & CANTRIPS |
+| ------------------------- |
+| NAME          | HIT  | DAMAGE/TYPE | NOTES                                     |
+| ------------- | ---- | ----------- | ----------------------------------------- |
+| Crossbow, hand| +5   | 1d6+2 Piercing | Martial, Ammunition, Range 80/320       |
+| Crossbow, light | +5 | 1d8+2 Piercing | Simple, Ammunition, Loading, Light, Two-Handed, Range 80/320 |
+| Dagger        | +5   | 1d4+2 Piercing | Simple, Finesse, Light, Thrown, Range (20/60) |
+| Rapier        | +5   | 1d8+2 Piercing | Martial, Finesse                       |
+| Unarmed Strike| +3   | 1 Bludgeoning  |                                         |
+
+---
+```
+Bohumil
+CHARACTER NAME    Bard 5                    gwvabbt
+CLASS & LEVEL     Half-Elf                  PLAYER NAME
+RACE              Archive Initiate          BACKGROUND
+(Milestone)       EXPERIENCE POINTS
+
+=== BARD FEATURES ===
+Additional Bard Spells · TCoE 27
+Your Bard has additional spells available to them, as
+described in Tasha's Cauldron of Everything.
+Hit Points · PHB 52
+Proficiencies · PHB 52
+Spellcasting · PHB 52
+You can cast known bard spells using CHA as your
+spellcasting modifier (Spell DC 15, Spell Attack +7)
+and known bard spells as rituals if they have the ritual
+tag. You can use a musical instrument as a
+spellcasting focus.
+Bardic Inspiration · PHB 53
+As a bonus action, you can inspire another with
+for 10 minutes, a creature (other than you) within
+60 ft. that can hear you gains an inspiration die (1d8).
+After each attack roll, saving throw, or ability check, the
+check, attack roll, or save before knowing the outcome.
+1/4 Short Rest · 1 Bonus Action
+Magical Inspiration · TCoE 27
+If a creature has a Bardic Inspiration die from you and
+casts a spell that restores hit points or deals damage,
+the creature can roll that die and choose a target
+affected by the spell. Add the number rolled as a
+bonus to the hit points regained or the damage dealt.
+The Bardic Inspiration die is then lost.
+1/ Short Rest · 1 Minute
+Jack of All Trades · PHB 54
+You can add half your proficiency bonus, rounded
+down ( +1 ), to any ability check you make that doesn't
+already include it.
+Song of Rest · PHB 54
+If you or any friendly creatures who can hear your
+performance regain hit points at the end of the short
+rest by spending an extra Hit Dice, each of those
+creatures regains one or more hit points.
+Bard College · PHB 54
+College of Whispers
+Expertise · PHB 54
+Your proficiency bonus is doubled for any ability check
+you make with chosen proficiencies (2 at 3rd and 10th
+level).
+Psychic Blades · XGE 16
+When you hit a creature with a weapon attack, you can
+expend one use of your Bardic Inspiration to deal an
+extra 3d6 psychic damage to that target. You can do
+so only once per round on your turn.
+Words of Terror · XGE 16
+Once per short rest, you can speak to a humanoid
+alone for 1 minute and cause it to become frightened
+of you (or another creature of your choice) if it fails a
+Wis saving throw (DC 15) for 1 hour or until it or its
+allies are attacked or damaged. If the target succeeds,
+it is not aware you used this ability.
+1/1 Short Rest · 1 Minute
+
+=== SPELLCASTING ===
+Spellcasting feature with another cantrip from the bard
+spell list.
+Ability Score Improvement · PHB 54
+Font of Inspiration · PHB
+You regain all your expended uses of Bardic
+Inspiration when you finish a short or long rest.
+Mantle of Whispers · XGE 17
+When you kill a humanoid, you can capture its shadow
+with your bard's Cloak of Shadows. You can use
+this shadow guise using the Cloak of Shadows.
+FEATURES & TRAITS
+
+=== HALF-ELF RACIAL TRAITS ===
+Ability Score Increase · BR 39
+Darkvision · BR 39
+You can see in darkness (shades of gray) up to 60 ft.
+Fey Ancestry · BR 39
+You have advantage on saving throws against being
+charmed, and magic can't put you to sleep.
+Skill Versatility · BR 39
+You gain proficiency in two skills of your choice.
+Languages · BR 39
+
+=== FEATS ===
+Telekinetic · TCoE 81
+You learn the verbal-magic hand/esm cantrip, and can
+cast it without verbal or somatic components and make
+the spectral hand invisible. If you already know this
+spell, its range increases by 30 ft. Its telekinesis
+ability is the ability increased by this feat.
+
+As a bonus action, you can try to telekinetically shove
+one creature you can see within 30 ft. of you. When
+you do so, the target must succeed on a Strength
+saving throw (DC 11 + the ability modifier of the score
+increased by this feat) or be moved 5 ft. toward or
+away from you.
+
+| NAME            | QTY | WEIGHT | NAME                          | QTY | WEIGHT |
+|-----------------|-----|--------|-------------------------------|-----|--------|
+| Emerald Pen     |   1 | --     | Paper (one sheet)             |   5 | --     |
+| Second Fiddle   |   1 | --     | Perfume (vial)                |   1 | --     |
+| Studded Leather |   1 | 13 lb. | Sealing Wax                   |   1 | --     |
+| Crossbow, hand  |   1 | 3 lb.  | Soap                          |   1 | --     |
+| Dagger          |   1 | 1 lb.  |                               |     |        |
+| Crossbow, light |   1 | 5 lb.  | ATTUNED MAGIC ITEMS           | QTY | WEIGHT |
+| Rapier          |   1 | 2 lb.  | Second Fiddle                 |   1 | --     |
+| Chest           |   1 | 25 lb. |                               |     |        |
+| Lute            |   1 | 2 lb.  |                               |     |        |
+| Ink (1 ounce bottle) | 1 | --  |                               |     |        |
+| Ink Pen         |   1 | --     |                               |     |        |
+| Case, Map or Scroll | 2 | 6 lb. |                               |     |        |
+| Clothes, Fine   |   1 | 2 lb.  |                               |     |        |
+| Lamp            |   1 | 1 lb.  |                               |     |        |
+| Oil (flask)     |   2 | 2 lb.  |                               |     |        |
+
+EQUIPMENT
+WEIGHT CARRIED                  62 lb.
+ENCUMBERED                      0 lb.
+PUSH/DRAG/LIFT                  0 lb.
+```
+---
+```
+CHARACTER NAME
+Bohumil
+
+CLASS & LEVEL
+Bard 5
+
+PLAYER NAME
+gwrabbit
+
+RACE
+Half-Elf
+
+BACKGROUND
+Archive Initiate
+
+EXPERIENCE POINTS
+(Milestone)
+
+ADDITIONAL FEATURES & TRAITS
+| Characteristic             | Description                                                  |
+|----------------------------|--------------------------------------------------------------|
+| Charisma                   | Increase your Charisma score by 1, to a maximum of 20. The spellcasting ability is Charisma. |
+| Telekinetic Shove:         | 1 Bonus Action                                               |
+|                            | You are able to speak telepathically to any creature, as long as you share a language. You also learn the detect thoughts spell and can cast this spell without expending a spell slot, recharging on a long rest. You can also cast this spell using spell slots you have of the appropriate level.  |
+
+ADDITIONAL EQUIPMENT
+| NAME | QTY | WEIGHT | NAME | QTY | WEIGHT |
+|------|-----|--------|------|-----|--------|
+```
+---
+---
+Bohumil
+| GENDER | AGE | SIZE  | HEIGHT | WEIGHT |
+|--------|-----|-------|--------|--------|
+|        |     | Medium|        |        |
+
+| ALIGNMENT | FAITH | SKIN | EYES | HAIR |
+|-----------|-------|------|------|------|
+|           |       |      |      |      |
+
+| PERSONALITY TRAITS                 |
+|------------------------------------|
+| At this point, people just believe |
+| what I tell them. It's too terrifying|
+| not to. I make them feel like things |
+| will be ok.                         |
+| Things are rarely OK.               |
+
+| IDEALS                              |
+|-------------------------------------|
+| Always talk from the lower throat.  |
+| Quietly. In command when needed.    |
+| Speaking from a position of knowing.|
+| "Here's how the world works..."     |
+
+| BONDS                               |
+|-------------------------------------|
+|                                     |
+
+| FLAWS                               |
+|-------------------------------------|
+|                                     |
+---
+
+| CHARACTER APPEARANCE               | ALLIES & ORGANIZATIONS |
+|------------------------------------|------------------------|
+|                                    |                        |
+|                                    |                        |
+|                                    |                        |
+
+---
+
+| FEATURE NAME  | DESCRIPTION |
+|---------------|-------------|
+| Chronicler    | Gain proficiency in History, or expertise if already |
+|               | proficient.                                       |
+|               | You can attempt to consult the Company’s           |
+|               | Chronicle, which has hundreds of years of recorded |
+|               | history, lineages, and information.               |
+|               | Pieces of the Chronicle have been missing since the |
+|               | Vow Scourge - find them to gain more knowledge.   |
+| Cypher Mage   | Gain proficiency in Survival or Perception, or     |
+|               | expertise if already proficient.                   |
+|               | Leads the Company's small troop of scouts, who     |
+|               | can be sent out ahead of a job to gain information |
+|               | about the territory, locations, dangers, etc.      |
+| Spymaster     | Gain proficiency in Investigation or Stealth, or   |
+|               | expertise if already proficient.                   |
+|               | Utilize the Company's spy network to acquire       |
+|               | knowledge, find something or someone, run          |
+|               | background checks on potential jobs or employers,  |
+|               | plant misinformation, etc. Can send resources to   |
+|               | expand and strengthen the spy network.             |
+
+---
+
+| CHARACTER BACKSTORY               | ADDITIONAL NOTES      |
+|-----------------------------------|-----------------------|
+|                                   |                       |
+|                                   |                       |
+|                                   |                       |
+
+---
+---
+```markdown
+| SPELLCASTING CLASS | Bard        |          | CHA         | 16        |          | SPELL SAVE DC | 7          |
+|--------------------|-------------|----------|-------------|-----------|----------|---------------|------------|
+|                    |             |          | SPELL ATTACK|           |          | SPELL ATTACK  |            |
+|                    |             |          | BONUS       |           |          | BONUS         | +7         |
+
+### SPELLS
+
+| PREP SPELL NAME | SOURCE        | SAVE/ATK | RANGE       | COMP      | DURATION | PAGE REF | NOTES               |
+|-----------------|---------------|----------|-------------|-----------|----------|----------|---------------------|
+| **CANTRIPS (0 LEVEL)**             |               |          |             |           |          |          |                     |
+| Mage Hand       | Bard          | --       | 30 ft.      | V S       | 1 minute | PHB 256  | Dm, inv, V/S        |
+| Message         | Bard          | --       | 120 ft.     | V S M     | 1 round  | PHB 259  | Df;hrd, V/S/M       |
+| Prestidigitation| Bard          | --       | 10 ft.      | V S       | 1 hour   | PHB 267  | D h, V/S            |
+| Mage Hand       | Telekinetic   | --       | 30 ft.      | V S       | 1 minute | PHB 256  | Dm, inv, V/S        |
+
+| **1st LEVEL**   |               |          |             |           |          |          |                     |
+| Silvery Barbs   | Bard          | --       | 60 ft.      | V         | Instant. | SACG38   | V                   |
+| Healing Word    | Bard          | 1B A     | 60 ft.      | V         | Instant. | PHB 250  | V                   |
+| Cure Wounds     | Bard          | 1A Touch | V S         | Instant.  | PHB 230  | V/S      |                     |
+| Illusory Script | Emerald Pen   | --       | Touch       | S M       | 10 days  | PHB 252  | S/M, D10d, S/M      |
+
+| **2nd LEVEL**   |               |          |             |           |          |          |                     |
+| Shatter         | Bard          | CON 16 1A| 60 ft./10ft.| V S M     | Instant. | PHB 275  | 10 ft. Sphere, V/S/M|
+| Invisibility    | Bard          | --       | Touch       | V S       | 1 hour   | PHB 254  | D 1h, V/S/M         |
+| Silence         | Rjnk(C)       | --       | 120 ft./20ft| V S       | 10 min.  | PHB 275  | D 10m, 20 ft. Sphere, V/S |
+| Detect Thoughts | Telepathic (Cha)| --     | 30 ft.      | V S M     | 1 min    | PHB 231  | L1n, D1m, V/S/M     |
+
+| **3rd LEVEL**   |               |          |             |           |          |          |                     |
+| Slow            | Bard          | WIS 16 1A| 120 ft./40ft| V S M     | 1 min.   | PHB 277  | D1m, 40 ft. Cube, V/S/M |
+| Stinking Cloud  | Bard          | CON 16 1A| 90 ft./20ft.| V S M     | 10 min.  | PHB 278  | D1m, 20 ft. Sphere, V/S/M |
+```
+---

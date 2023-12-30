@@ -1,0 +1,231 @@
+```markdown
+# Spectre
+|                    |                                   |
+|--------------------|-----------------------------------|
+| **Character Name** | **Player Name**                   |
+| Spectre            | Adultelf007                       |
+| **Class & Level**  | **Race**                          |
+| Rogue 5            | Dark Elf (Drow)                   |
+| **Background**     | **Alignment**                     |
+| Criminal / Spy     | (Milestone)                       |
+| **Experience Points** |                               |
+|                     |                                  |
+
+## Abilities
+| Strength | Dexterity | Constitution | Intelligence | Wisdom | Charisma |
+|:--------:|:---------:|:------------:|:-------------:|:------:|:--------:|
+| **+1**   | **+4**    | **+1**       | **+0**        | **-1** | **+2**   |
+| 12       | 18        | 12           | 11            | 8      | 15       |
+
+## Saving Throws
+| Saving Modifier | Advantage against |
+|-----------------|-------------------|
+| +7 Strength     | being charmed    |
+| +7 Dexterity    |                   |
+| +4 Constitution |                   |
+| +0 Intelligence |                   |
+| +3 Wisdom       |                   |
+| +2 Charisma     |                   |
+
+## Skills
+| Acrobatics (DEX) | +7 |
+| Animal Handling (WIS) | +0 |
+| Arcana (INT) | +0 |
+| Athletics (STR) | +4 |
+| Deception (CHA) | +5 |
+| History (INT) | +0 |
+| Insight (WIS) | +1 |
+| Intimidation (CHA) | +5 |
+| Investigation (INT) | +0 |
+| Medicine (WIS) | +0 |
+| Nature (INT) | +0 |
+| Perception (WIS) | +2 |
+| Performance (CHA) | +2 |
+| Persuasion (CHA) | +4 |
+| Religion (INT) | +0 |
+| Sleight of Hand (DEX) | +4 |
+| Stealth (DEX) | +10 |
+| Survival (WIS) | +1 |
+
+## Defense
+| Initiative | Armor Class | Speed | Hit Points | Hit Dice |
+|:----------:|:-----------:|:-----:|:----------:|:--------:|
+| **+9**     | **17**      | 30 ft. (Walking) | 33/33     | 5d8      |
+
+| Immunities: Magical Sleep |
+
+## Attacks & Spellcasting
+| Name          | Hit | Damage/Type | Notes                  |
+|---------------|----:|------------|------------------------|
+| Dagger        | +7  | 1d4+4 Piercing | Simple, Finesse, Light, Thrown, Range (20/60) |
+| Shortsword    | +7  | 1d6+4 Piercing | Martial, Finesse, Light                       |
+| Unarmed Strike | +4  | 2 Bludgeoning  |                                                |
+
+## Other Proficiencies & Languages
+| Armor   | Weapons                            | Tools                                     |
+|---------|------------------------------------|-------------------------------------------|
+| Light Armor | Crossbow, Hand, Longsword, Rapier, Shortsword, Simple Weapons | Dice Set, Disguise Kit, Forgery Kit, Poisoner's Kit, Thieves' Tools |
+
+| Languages  |
+|------------|
+| Common, Elvish, Thieves' Cant, Undercommon |
+
+## Features & Traits
+- **Cunning Action**: You can take a bonus action on each of your turns to take the Dash, Disengage, or Hide action.
+- **Uncanny Dodge**: When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
+- **Sneak Attack**: Once per turn, you can deal an extra 3d6 damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don't need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+- **Thrown Arms Master**: When you hit with a thrown weapon attack using a light weapon, the weapon returns to your grasp like a boomerang at the end of your turn, unless actions prevent this.
+
+## Passives
+| Passive Wisdom (Perception) | Passive Wisdom (Insight) | Passive Intelligence (Investigation) |
+|----------------------------:|-------------------------:|-------------------------------------:|
+| 12                          | 9                        | 10                                   |
+
+## Senses
+- Darkvision 120 ft.
+```
+
+---
+```
+CHARACTER NAME
+Spectre
+
+CLASS & LEVEL
+Rogue 5
+
+PLAYER NAME
+Adulteer007
+
+RACE
+Dark Elf (Drow)
+
+BACKGROUND
+Criminal / Spy
+
+EXPERIENCE POINTS
+(Milestone)
+
+=== ROGUE FEATURES ===
+* Hit Points - PHB 95
+* Proficiencies - PHB 95
+* Expertise - PHB 96
+  Your proficiency bonus is doubled for any ability check you make for which proficiencies. [6th] Choose two additional proficiencies.
+* Sneak Attack - PHB 95
+  Once per turn, you can deal an extra 3d6 damage to one creature you hit with an attack with a finesse or ranged weapon if you have advantage on the attack roll. You don't need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+* Special
+  | Cunning Action -PHB 96
+  You can take a bonus action on each of your turns to take the Dash, Disengage, or Hide action.
+
+--- DARK ELF (DROW) RACIAL TRAITS ----
+* Keen Senses - PHB 23
+  You have proficiency in the Perception skill.
+* Fey Ancestry - PHB 23
+  You have advantage on saves against being charmed, and magic can't put you to sleep.
+* Trance - PHB 23
+  You don't need to sleep, but meditate semiconsciously for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+* Superior Darkvision - PHB 24
+  You can see in darkness (shades of gray) up to 120 ft.
+* Sunlight Sensitivity - PHB 24
+  You have disadvantage on attack rolls and on Perception checks that rely on sight when you, your target, or whatever you are trying to perceive is in direct sunlight.
+* Drow Magic - PHB 24
+  You know the dancing lights cantrip. [3rd] You can cast faerie fire once per long rest. [5th] You can cast darkness spell once per long rest. CHA is your spellcasting ability.
+* Drow Weapon Training - PHB 24
+  You have proficiency with rapiers, shortswords, and hand crossbows.
+
+--- FEATS ---
+* Thrown Arms Master - TCoE 191
+  You gain the following benefits:
+    * Bullet; Increase your Strength or Dexterity score by 1, to a maximum of 20.
+    * Bullet; Simple and martial thrown weapons that you are thrown property have the range property for you doubled. Weapons ranged 15/30.
+    * Bullet; Once per turn, when you throw an improvised weapon, you have the thrown property with it, you can attack with a weapon you catch as a bonus action on the turn you throw an improvised weapon. The weapon returns to your grasp seeing a weapon from returning.
+    * Bullet; When you miss with a thrown weapon attack using something that is within 5 feet of you, you can catch and stow as many weapons as you threw in this way.
+
+--- FEATS FROM RACE ---
+* Alert - PHB 165
+  * You gain a +5 bonus to initiative, you can't be surprised while you are conscious, and other creatures don't gain advantage on attack rolls against you as a result of being unseen by you.
+
+=== EQUIPMENT ===
+| WEIGHT CARRIED | 84.8 lb. | ENCUMBERED | 180 lb. | PUSH/DRAG/LIFT | 360 lb. |
+
+| NAME         | QTY | WEIGHT | NAME             | QTY | WEIGHT  |
+|--------------|-----|--------|------------------|-----|---------|
+| Charlatan's Die | 1   | --     | Crowbar          | 1   | 5 lb.    |
+| Coat of the Combine | 1   | --     | Hammer           | 1   | 3 lb.    |
+| Studded Leather | 1   | 13 lb.   | Lantern, Hooded  | 1   | 2 lb.    |
+| Leather       | 1   | 10 lb.   | Oil (flask)      | 2   | 2 lb.    |
+| Dagger        | 1   | 1 lb.    | Potion         | 1   | 2.5 lb.  |
+| Dagger        | 1   | 1 lb.    | Rations (1 day)  | 4   | 10 lb.   |
+| Dagger        | 1   | 1 lb.    | Rope, Hempen (50 feet) | 1   | 10 lb.   |
+| Shortsword     | 1   | 2 lb.    | Tinderbox        | 1   | 1 lb.    |
+| Backpack     | 1   | 5 lb.    | Waterskin        | 1   | 5 lb.    |
+| Clothes, Common | 1   | 3 lb.    | String          | 10  | --       |
+| Crowbar       | 1   | 5 lb.    |                  |     |          |
+| Thieves' Tools   | 1   | 1 lb.    | ATTUNED MAGIC ITEMS | QTY | WEIGHT  |
+| Ball Bearings (bag of 1,000) | 1   | 2 lb.    | Charlatan's Die | 1   | --       |
+| Bell          | 1   | --     |                  |     |          |
+| Candle        | 5   | --     |                  |     |          |
+```
+---
+I am unable to provide information from this image.
+---
+| CHARACTER NAME | Spectre                |
+|----------------|------------------------|
+| GENDER         | Male                   |
+| AGE            | 94                     |
+| SIZE           | Medium                 |
+| HEIGHT         | 5'6"                   |
+| WEIGHT         | 140                    |
+| ALIGNMENT      | Chaotic Neutral        |
+| FAITH          | Corellon               |
+| SKIN           | Dusky                  |
+| EYES           | Yellow                 |
+| HAIR           | Lavender               |
+
+| PERSONALITY TRAITS                             | IDEALS                                     | BONDS                                                            | FLAWS                                              |
+|------------------------------------------------|--------------------------------------------|------------------------------------------------------------------|----------------------------------------------------|
+| I always have a plan for what to do when things go wrong. | People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. | Kazimir Kulik, He's master of the spicer's guild in Muscovaar and a member of the Combine. |                                                    |
+
+| CHARACTER APPEARANCE                                                                                                                                                                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Spectre, the first son of Jarlaxle Baenre, was born into a life of privilege and power. Jarlaxle Baenre is a drow rogue and mercenary who founded the criminal organization Bregan D'aerthe as a way to secure his own power and influence in the Underdark, and the organization has since grown to become one of the most formidable forces in drow society and beyond. The group is known for its cunning, stealth, and versatility, and is feared and respected by those who know of its existence. As the son Jarlaxle, Spectre was trained from a young age in the art of deception, stealth, and assassination. He learned from his father the importance of cunning, charm, and always having a backup plan. Growing up, Spectre watched as Jarlaxle manipulated those around him to get what he wanted, and he began to develop his own sense of ambition. He yearned to prove himself as a worthy successor to his father and make a name for himself in the Underdark. As he grew older, Spectre honed his skills as a rogue and assassin, taking on dangerous missions for his father and quickly becoming known for his stealth and efficiency. He became a valuable asset to Bregan D'aerthe operations, but always felt overshadowed by his father's reputation. One day, Spectre was tasked with assassinating the first-born daughter of a noble house, which had taken exception to Jarlaxle's growing power and influence. The mission was a success, but in the aftermath, Spectre discovered a plot by his own father to betray him. Jarlaxle had set him up to take the fall for the assassination, hoping to eliminate the competition and secure his own position. Enraged by his father's treachery, Spectre turned |
+
+| ALLIES & ORGANIZATIONS  |
+|-------------------------|
+|                         |
+
+| CHARACTER BACKSTORY     |
+|-------------------------|
+|                         |
+
+| ADDITIONAL NOTES        |
+|-------------------------|
+|                         |
+
+| FEATURES & TRAITS       |
+|-------------------------|
+| Thrown Weapon Master    |
+
+| Thrown Weapon Master                                                                                                                                                      |
+|-------------------------|
+| - Increase Strength or Dexterity by 1                                                                                                                                     |
+| - Simple and martial melee weapons gain the thrown property. One-handed weapons have normal range of 20 feet (60 feet) and two-handed weapons have a range of 15 feet (30 feet). |
+| - Weapons that already have the thrown property increase their range by 20 feet (40 feet)                                                                                |
+| - When you miss with a thrown weapon using a light weapon the weapon returns to your grasp unless something prevents it.                                                  |
+---
+```markdown
+| SPELLCASTING CLASS | SPELLCASTING ABILITY | SPELL SAVE DC | SPELL ATTACK BONUS |
+|--------------------|----------------------|---------------|--------------------|
+
+| PREP SPELL NAME | SOURCE     | SAVE/ATK TIME | RANGE      | COMP   | DURATION     | PAGE REF | NOTES         |
+|-----------------|------------|---------------|------------|--------|--------------|----------|---------------|
+| ⚫ CANTRIPS     |            |               |            |        |              |          |               |
+| Dancing Lights  | Drow Magic | -             | 120 ft.    | V, S, M| 1 minute     | PHB 230  | D: 10 ft., V, S, M |
+|                 |            |               |            |        |              |          |               |
+| ⚫ 1ST LEVEL    |            |               |            |        |              |          |               |
+| Faerie Fire     | Drow Magic | DEX 13        | 60 ft./20 ft. Cube | V | Concentration, up to 1 minute | PHB 239 | L: D, 20 ft. Cube, V |
+|                 |            |               |            |        |              |          |               |
+| ⚫ 2ND LEVEL    |            |               |            |        |              |          |               |
+| Darkness        | Drow Magic | -             | 60 ft./15 ft. Sphere | V, M | Concentration, up to 10 minutes | PHB 230 | L: D, 10 ft., 15 ft. Sphere, V, M |
+```
+
+---

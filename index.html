@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Upload Files</h2>
+
+<form id="upload-form">
+  <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+document.getElementById('upload-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  var formData = new FormData();
+  var files = document.getElementById('files').files;
+  for (var i = 0; i < files.length; i++) {
+    formData.append('files', files[i]);
+  }
+
+  fetch('http://localhost:8031/convert_multiple', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.blob())
+  .then(blob => {
+    var url = window.URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'output.zip';
+    a.click();
+  });
+});
+</script>
+
+</body>
+</html>

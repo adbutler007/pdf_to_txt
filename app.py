@@ -1,7 +1,6 @@
-from fastapi import FastAPI, UploadFile, File
-from fastapi.responses import FileResponse
-from PyPDF2 import PdfReader
-from pdf2image import convert_from_path
+from fastapi import FastAPI, UploadFile, File, Response
+from fastapi.responses import HTMLResponse, FileResponse
+from pdf2image import convert_from_bytes
 import base64
 import requests
 import io
@@ -11,6 +10,12 @@ import shutil
 from typing import List
 
 app = FastAPI()
+
+@app.get("/")
+def read_root():
+    with open("index.html", 'r') as f:
+        html_content = f.read()
+    return HTMLResponse(content=html_content, status_code=200)
 
 api_key = os.environ.get("OPENAI_API_KEY")
 
@@ -24,12 +29,14 @@ headers = {
   "Authorization": f"Bearer {api_key}"
 }
 
-def pdf_to_payload(pdf_path):
+from pdf2image import convert_from_bytes
+
+def pdf_to_payload(pdf_file):
     # Read the PDF file
-    pdf = PdfReader(open(pdf_path, "rb"))
+    pdf_data = pdf_file.read()
 
     # Convert each page to an image
-    images = convert_from_path(pdf_path, dpi=600)
+    images = convert_from_bytes(pdf_data, dpi=600)
 
     # Process each image
     for image in images:
@@ -87,6 +94,8 @@ async def convert_single(file: UploadFile = File(...)):
 @app.post("/convert_multiple/")
 async def convert_multiple(files: List[UploadFile] = File(...)):
     for file in files:
+        print(f"Processing file: {file.filename}")
+
         # Initialize markdown content
         markdown_content = ""
 
@@ -101,6 +110,8 @@ async def convert_multiple(files: List[UploadFile] = File(...)):
         with open(output_file, 'w') as f:
             f.write(markdown_content)
 
+        print(f"Successfully processed file: {file.filename}")
+
     # Zip the ./tmp directory
     shutil.make_archive("./tmp/output", 'zip', "./tmp")
 
@@ -113,4 +124,4 @@ async def convert_multiple(files: List[UploadFile] = File(...)):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True, timout = 1200)
