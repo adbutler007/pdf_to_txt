@@ -107,3 +107,7 @@ async def convert_directory(input_dir: str, output_dir: str):
     shutil.make_archive(output_dir, 'zip', output_dir)
 
     return FileResponse(f"{output_dir}.zip", media_type="application/zip")
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
