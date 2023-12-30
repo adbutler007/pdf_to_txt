@@ -1,0 +1,287 @@
+```markdown
+| CHARACTER NAME | CLASS & LEVEL        | PLAYER NAME | EXPERIENCE POINTS |
+|----------------|----------------------|-------------|-------------------|
+| Grimgor        | Fighter 5            | Portnoy     | (Milestone)       |
+
+| RACE    | BACKGROUND | ALIGNMENT | FACTIONS |
+|---------|------------|-----------|----------|
+| Half-Orc | Feylost   |           |          |
+
+| STRENGTH | DEXTERITY | CONSTITUTION | INTELLIGENCE | WISDOM | CHARISMA |
+|----------|-----------|--------------|--------------|--------|----------|
+| 17(+3)   | 10(+0)    | 16(+3)       | 8(-1)        | 10(+0) | 15(+2)   |
+
+| SAVING THROW MODIFIERS |
+|------------------------|
+| STR +6   |
+| DEX +0   |
+| CON +6   |
+| INT -1   |
+| WIS +0   |
+| CHA +2   |
+
+| SAVING THROWS           | SKILLS                     |
+|-------------------------|----------------------------|
+| Acrobatics DEX +0       | Animal Handling WIS +0     |
+| Arcana INT -1           | Athletics STR +6           |
+| Deception CHA +2        | History INT -1             |
+| Insight WIS +0          | Intimidation CHA +3        |
+| Investigation INT -1    | Medicine WIS +0            |
+| Nature INT -1           | Perception WIS +3          |
+| Performance CHA +2      | Persuasion CHA +2          |
+| Religion INT -1         | Sleight of Hand DEX +0     |
+| Stealth DEX +2          | Survival WIS +0            |
+
+| PROFICIENCIES & LANGUAGES                              |
+|--------------------------------------------------------|
+| Armor: Heavy Armor, Light Armor, Medium Armor, Shields |
+| Weapons: Martial Weapons, Simple Weapons               |
+| Languages: Common, Elvish, Goblin, Orc                 |
+
+| ARMOR CLASS | INITIATIVE | SPEED    | HIT POINTS     | HIT DICE   |
+|-------------|------------|----------|----------------|------------|
+| 17          | +0         | 30 ft.   | Max HP 49      | Total 5d10 |
+|             |            | (Walking)| Current HP     |            |
+|             |            |          | Temp HP --     |            |
+|             |            |          |                | Successes  |
+|             |            |          |                | Failures   |
+
+| ATTACKS & SPELLCASTING                                 | ACTIONS                                             | REACTIONS                                        |
+|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
+| NAME               | HIT  | DAMAGE/TYPE            | NOTES                               | Spring Ephemeral                                      | War Cry 1/Short Rest                                  |
+| Battleaxe          | +6   | 1d8+5 Slashing         | Martial, Versatile                    | After using your action or your turn, you can use your bonus action to teleport up to 30 feet to an unoccupied location visible to you. This effect lasts until the start of your next turn. | As a bonus action, you unleash a war cry that emboldens one target of your choice within 30 feet of you. The next time that creature hits with a weapon attack, it can roll one additional damage die. You can't use this feature again until you complete a short rest. |
+| Grim Harvest       | +6   | 1d10+5 Slashing        | Martial, Heavy, Reach, Two-Handed      | Autumn Harvest                                            | ----                                                     |
+| Unarmed Strike     | +6   | 4 Bludgeoning          | ----                                  | You can use your bonus action to teleport up to 30 feet closer to an enemy.                             | Orc Fury 1/Short Rest                                    |
+|                                                       |                                                    | Immediately after you use your Relentless Endurance trait, you can use your reaction to make one melee attack. |
+| SENSES                                                | INSPIRATION | PROFICIENCY BONUS | ABILITY SAVE DC  | PASSIVE WISDOM (PERCEPTION) |
+| Darkvision 60 ft.                                     |             | +3                | 13               | 13                         |
+|                                                       |             |                    |                  | PASSIVE WISDOM (INSIGHT)    |
+|                                                       |             |                    |                  | 10                         |
+|                                                       |             |                    |                  | PASSIVE INTELLIGENCE (INVESTIGATION)   |
+|                                                       |             |                    |                  | 9                          |
+
+TM & © 2018 Wizards of the Coast LLC. ©2018 D&D Beyond | All Rights Reserved. Permission is granted to photo copy this document for personal use.
+```
+---
+```
+CHARACTER NAME
+Grimgor
+
+CLASS & LEVEL
+Fighter 5
+
+BACKGROUND
+Feylost
+
+PLAYER NAME
+Portnoy
+
+RACE
+Half-Orc
+
+EXPERIENCE POINTS
+(Milestone)
+
+---
+
+| FIGHTER FEATURES      |                  |
+|-----------------------|------------------|
+| Hit Points - PHB 71   |                  |
+| Proficiencies - PHB 71|                  |
+| • Fighting Style - PHB 72|              |
+| You adopt a fighting style specialty.    |
+| • Dueling - PHB       |                  |
+| When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. |
+
+| • Second Wind - PHB 72|                  |
+| Once per short rest, you can use a bonus action to regain 1d10 + 5 HP. |
+
+| • Action Surge - PHB 72|                 |
+| You can take one additional action on your turn. This can be used 1 times per short rest. |
+
+| • Martial Archetype - PHB 72|            |
+| Fey Knight                              |
+| • Fey Passage                            |
+| Starting at 3rd level, you gain some control over the ever-changing magic of the fey. It imbues you and gives you an edge in battle. Each of your following powers: Spring Ephemeral, Autumn Harvest, Fey Ability. You can use the powers granted by this ability a number of times equal to your Charisma modifier per long rest. You can change which power you can use at the end of a short or long rest. |
+| • Spring Ephemeral: 1 Bonus Action      |
+| • Autumn Harvest: 1 Bonus Action        |
+| • Fey Guile: 1 Action                   |
+| • 1/2 Long Rest                         |
+| • Heart Throb -                         |
+| You can touch a creature and magically know the creature's current emotional state. |
+| • Ability Score Improvement - PHB 72    |
+| • Extra Attack - PHB 72                 |
+| You can attack twice whenever you take the Attack action on your turn. |
+
+| --- HALFORC RACIAL TRAITS ---           |                  |
+| Darkvision - BR 41                      |                  |
+| You can see in darkness (shades of gray) up to 60 ft. Menacing - BR 41|
+
+| Menacing - BR 41                        |                  |
+| You gain proficiency in the intimidation skill. |
+
+| Relentless Endurance - BR 41            |                  |
+| When you are reduced to 0 HP but not killed, you can drop to 1 HP instead once per long rest. |
+
+| 1/1 Long Rest - Special                 |                  |
+| • Savage Attacks - BR 41                |                  |
+| When you score a critical hit, roll one of the weapon's dice one additional time and add it to the extra damage. |
+
+| --- FEATS ---                           |                  |
+| • Fey Touched - TCoE 79                 |                  |
+| Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20. Learn the spell misty step from the divination or enchantment school of choice. Once per long rest you can cast each of these spells without expending a spell slot. You can also cast these spells using spell slots you have of the appropriate level. The spell's spellcasting ability is the ability increased by this feat. |
+
+| • Crusher - TCoE 79                     |                  |
+| Increase your Strength or Constitution score by 1, to a maximum of 20. Once per short rest, when you hit with an attack using a simple or martial weapon, you can roll one of the weapon's damage die an additional time and add it as extra damage of the weapon's damage type. Immediately after you use your Paladin's feature to reduce atk, you can use your reaction to make one weapon attack. |
+
+| • Orcish Fury - XGtE 75                 |                  |
+| Once per short rest, as a bonus action or reaction, you are able to make a melee attack. |
+
+| • War Caster - PHB                      |                  |
+| Advantage on saving throws to maintain concentration on a spell when you take damage. Can perform somatic components of spells even when hands are occupied with weapons or a shield. Can perform a spell with a casting time of 1 action as an opportunity attack. |
+
+---
+
+| WEIGHT CARRIED   |                  |
+|------------------|------------------|
+| 209.16 lb.       |                  |
+
+| ENCUMBERED       |                  |
+| 255 lb.          |                  |
+
+| PUSH/DRAG/LIFT   |                  |
+| 510 lb.          |                  |
+
+---
+
+| EQUIPMENT                             | QTY | WEIGHT  |
+|---------------------------------------|-----|---------|
+| Wind Fan                              | 1   | --      |
+| Potion of the Tragic Hero             | 1   | --      |
+| Grim Harvest                          | 1   | --      |
+| Chain Mail                            | 1   | 55 lb.  |
+| Splint                                | 1   | 60 lb.  |
+| Glaive                                | 1   | 6 lb.   |
+| Crossbow, light                       | 1   | 5 lb.   |
+| Battleaxe                             | 1   | 4 lb.   |
+| Crossbow Bolts                        | 20  | 1.5 lb. |
+| Backpack                              | 1   | 5 lb.   |
+| Clothes, Traveler's                   | 1   | 4 lb.   |
+| Bagpipes                              | 1   | 6 lb.   |
+| Crowbar                               | 1   | 5 lb.   |
+| Hammer                                | 1   | 3 lb.   |
+| Piton                                 | 10  | 2.5 lb. |
+| Rations (1 day)                       | 20  | 20 lb.  |
+| Rope, Hempen (50 feet)                | 1   | 10 lb.  |
+| Tinderbox                             | 1   | 1 lb.   |
+| Torch                                 | 10  | 10 lb.  |
+| Waterskin                             | 1   | 5 lb.   |
+
+ATTUNED MAGIC ITEMS                    | QTY | WEIGHT  |
+|---------------------------------------|-----|---------|
+|                                       |     |         |
+```
+---
+```
+| CHARACTER NAME  | CLASS & LEVEL | PLAYER NAME | RACE     | BACKGROUND | EXPERIENCE POINTS |
+|-----------------|---------------|-------------|----------|------------|-------------------|
+| Grimgor         | Fighter 5     | Portnoy     | Half-Orc | Feylost    | (Milestone)       |
+```
+
+```
+| ADDITIONAL FEATURES & TRAITS |
+|------------------------------|
+|                              |
+```
+
+```
+| ADDITIONAL EQUIPMENT  |
+|-----------------------|
+|                       |
+```
+---
+```
+| Grimgor                            | GENDER | AGE | SIZE   | HEIGHT | WEIGHT |
+|------------------------------------|--------|-----|--------|--------|--------|
+| CHARACTER NAME                     |        |     | Medium |        |        |
+|------------------------------------|--------|-----|--------|--------|--------|
+| ALIGNMENT | FAITH    | SKIN | EYES | HAIR  |
+|-----------|----------|------|------|-------|
+|           |          |      |      |       |
+|-----------|----------|------|------|-------|
+
+| CHARACTER APPEARANCE               | PERSONALITY TRAITS    |
+|------------------------------------|-----------------------|
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|------------------------------------| IDEALS                |
+| ALLIES & ORGANIZATIONS             |-----------------------|
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|------------------------------------| BONDS                 |
+|                                    |-----------------------|
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|------------------------------------| FLAWS                 |
+|                                    |-----------------------|
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+|                                    |                       |
+
+| CHARACTER BACKSTORY                                               |
+|-------------------------------------------------------------------|
+| See my backstory in Google document. Or in Notion.                |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|-------------------------------------------------------------------|
+
+| ADDITIONAL NOTES                                                  |
+|-------------------------------------------------------------------|
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+|                                                                   |
+```
+
+---
+---
+SPELLCASTING CLASS  
+SPELLCASTING ABILITY  
+SPELL SAVE DC  
+SPELL ATTACK BONUS  
+
+| PREP SPELL NAME    | SOURCE    | SAVE/ATK TIME | RANGE | COMP  | DURATION     | PAGE REF | NOTES          |
+|-------------------|-----------|---------------|-------|-------|------------|----------|----------------|
+| **=== 1st LEVEL ===** |           |               |       |       |            |          |                |
+| Bane <C>          | Fey Touched | CHA 13 | 1A   | 30 ft. | V,S,M  | Concentration, up to 1 minute | PHB 216 | 1 LR, D: 1m, V:S:M |
+|                   |           |               |       |       |            |          |                |
+| **=== 2nd LEVEL ===** |           |               |       |       |            |          |                |
+| Gust of Wind <C>  | Wind Fan  | STR 13 | 1A   | Self  | V,S,M  | Concentration, up to 1 minute | PHB 248 | D: 1m, V:S:M |
+| Misty Step        | Fey Touched | -         | 1BA  | Self  | V       | Instantaneous                  | PHB 260 | 1 LR, V           |
+
+---
+---

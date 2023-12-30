@@ -1,0 +1,270 @@
+```
+CHARACTER NAME          PLAYER NAME       CLASS & LEVEL          RACE               BACKGROUND                EXPERIENCE POINTS
+Trigger                 Fiere_Inmasho     Artificer 1 / Wizard 4 Rock Gnome         Shroud Agent              (Milestone)
+
+STRENGTH  DEXTERITY  CONSTITUTION  INTELLIGENCE  WISDOM  CHARISMA
+-1        +2         +3            +5            +0      -1
+8         14         16            20            10      8
+```
+| Saving Throw Modifiers            |      | Senses           |      |
+|-----------------------------------|------|------------------|------|
+| Advantage on INT Against Magic    |      | Passive Wisdom   | 10   |
+| Advantage on WIS Against Magic    |      | (Perception)     |      |
+| Advantage on CHA Against Magic    |      | Passive Wisdom   | 10   |
+|                                   |      | (Insight)        |      |
+|                                   |      | Passive Int.     | 15   |
+|                                   |      | (Investigation)  |      |
+|                                   |      | Darkvision       | 60 ft.|
+
+
+| SKILLS                | Modifier |            |           | ARMOR              | DEFENSES        |
+|-----------------------|----------|------------|-----------|--------------------|-----------------|
+| Acrobatics DEX        | +2       | HIT POINTS |           | Armor Class | 18   | INITIATIVE | +7 |
+| Animal Handling WIS   | +0       | Max HP     | 39        |                    |                 |
+| Arcana INT            | +11      | Current HP | 39        | HIT DICE           |                 |
+| Athletics STR         | +1       | Temp HP    | --        | Total | 1d8 + 4d6   | SAVING THROWS   |
+| Deception CHA         | +0       |            |           |                    | ABILITY SAVE DC | -3 |
+| History INT           | +10      |            |           |                    |                 |
+| Insight WIS           | +0       |            |           |                    |                 | 
+| Intimidation CHA      | -1       |            |           |                    |                 |
+| Investigation INT     | +5       | DEATH SAVES           |                    |                 |
+| Medicine WIS          | +0       | Sucesses   | O O O     |                    |                 |
+| Nature INT            | +5       | Failures   | O O O     |                    |                 |
+| Perception WIS        | +0       |            |           |                    |                 |
+| Performance CHA       | -1       |            |           |                    |                 |
+| Persuasion CHA        | +0       |            |           |                    |                 |
+| Religion INT          | +5       |            |           |                    |                 |
+| Sleight of Hand DEX   | +4       |            |           |                    |                 |
+| Stealth DEX           | +5       |            |           |                    |                 |
+| Survival WIS          | -1       |            |           |                    |                 |
+
+
+| Proficiencies & Languages               | Speed               |
+|-----------------------------------------|---------------------|
+| Light Armor, Medium Armor, Shields      | 25 ft. (Walking)    |
+| Firearms, Simple Weapons                |                     |
+| Dice Set, Jeweler’s Tools, Smith’s Tools|                     |
+| Thieves' Tools, Tinker’s Tools          |                     |
+| Common, Gnomish, Goblin                 |                     |
+
+
+| ACTIONS            || REACTIONS             || PROFICIENCIES & LANGUAGES |
+|--------------------||-----------------------||---------------------------|
+| Standard Actions   ||                        ||                           |
+| Attack, Cast a Spell, Dash, Disengage, Dodge,||                           |
+| Help, Hide, Ready, Search, Use an Object,     ||                           |
+| Opportunity Attack, Grapple, Shove, Improvise,||                           |
+| Withdraw, Fighting, Interact with an Object ||                           |
+|                    ||                       ||                           |
+| Magical Tinkering / 5 Other                ||                           |
+| Imbue a Tiny nonmagical object with a magical ||                        |
+| property of your choice: 5-ft. radius light, up to 6 ||                |
+| second long recorded message, emits odor or ||                          |
+| nonverbal sound, static visual effect including up to 25 ||             |
+| words of text. You can affect a maximum of 5 objects ||                 |
+| at a time.           ||                       ||                           |
+
+
+| SPECIAL             || ACTIONS                                  |      |
+|---------------------||------------------------------------------|------|
+| Chronal Shift - 2/Long Rest                                     |      |
+| As a reaction, after you or a creature you can see within 30 ft. makes an attack roll, an ability check, or a saving throw, you can force the creature to reroll. You make this decision after you see whether the roll succeeds or fails. The target must use the result of the second roll.                       |      |
+| You can use this ability twice, and you regain any expended uses when you finish a long rest.     |      |
+|                     ||                                          |      |
+| Arcane Recovery - 1/Long Rest                                   |      |
+| Once per day when you finish a short rest, you can choose expended spell slots to recover - up to a combined level of 2, and none of the slots can be 6th level or higher.  |      |
+
+
+| WEAPON ATTACKS & CANTRIPS     |
+|-------------------------------|
+| NAME           | HIT | DAMAGE/TYPE | NOTES                               |
+| Dagger         | +5  | 1d4+2 Piercing | Simple, Finesse, Light, Thrown, Range (20/60) |
+| Fire Bolt      | +8  | 2d10 Fire  | V/S                                |
+| Unarmed Strike | +2  | 0 Bludgeoning |                                    |
+```
+
+Please note that due to formatting constraints, certain sections have been adjusted to fit neatly into tables. Content is accurately represented, but the alignment and layout may differ slightly from the original character sheet to optimize readability in markdown format.
+---
+```
+| WIZARD FEATURES                  |                           | ARTIFICER FEATURES                |                           | FEATS                              |
+| -------------------------------- | ------------------------- | -------------------------------- | ------------------------- | ---------------------------------- |
+| * Hit Points - PHB 113           |                           | * Hit Points - TCoE 10            |                           | * Fey Touched (Intelligence)       |
+| * Proficiencies - PHB 113        |                           | * Proficiencies - TCoE 10         |                           |   You learn the misty step spell   |
+| * Spellcasting - PHB 114         |                           | * Magical Tinkering - TCoE 11     |                           |   and one 1st-level divination/enchantment |
+|   You can cast prepared wizard   |                           |   Imbue a Tiny nonmagical object  |                           |   spell of your choice, and can    |
+|   spells using INT as your       |                           |   with a magical property of your |                           |   cast each of these spells without|
+|   spellcasting modifier (Spell   |                           |   choice: emit odor or light, or  |                           |   spending a spell slot, recharging|
+|   attack +8 and wizard spells in |                           |   recorded message, etc. radius   |                           |   on a long rest.                  |
+|   your Spell DC 16, Spells from  |                           |   up to 60 ft soundsignal effect  |                           |   You also cast these spells using |
+|   the ritual tag in your         |                           |   including up to 25 words of     |                           |   only components.                 |
+|   arcane focus as a              |                           |   text. You can affect a maximum  |                           |                                    |
+|   spellcasting focus.            |                           |   of 5 objects at a time.         |                           |                                    |
+|                                  |                           |                                   |                           |                                    |
+| * Arcane Recovery - PHB 115      |                           | * 1/5 Other - 1 Action            |                           |                                    |
+|   Once per day when you finish a |                           | * Spellcasting - TCoE 11          |                           |                                    |
+|   rest, you can choose expended  |                           |   You can cast prepared artificer |                           |                                    |
+|   spell slots to recover - up to |                           |   spells using INT as your        |                           |                                    |
+|   a combined level of 2, and not |                           |   spellcasting modifier (Spell DC |                           |                                    |
+|   include above spell level 6th  |                           |   16, Spell Attack +8) and ritual |                           |                                    |
+|   level or higher.               |                           |   tagged artificer spells as      |                           |                                    |
+|                                  |                           |   rituals if they have the        |                           |                                    |
+| * 1/1 Long Rest - Special        |                           |   prepaying. You must have a      |                           |                                    |
+|                                  |                           |   spellcasting focus — in hand    |                           |                                    |
+| * Arcane Tradition - PHB 115     |                           |   when you cast any spell with    |                           |                                    |
+|                                  |                           |   this feature.                   |                           |                                    |
+| * Chronurgy Magic                |                           |                                   |                           |                                    |
+|                                  |                           |                                   |                           |                                    |
+| * Chronal Shift - EGtW 184       |                           |                                   |                           |                                    |
+|   As a reaction, after you or a  |                           |                                   |                           |                                    |
+|   creature you see within 30 ft  |                           |                                   |                           |                                    |
+|   of you makes an attack roll, an|                           |                                   |                           |                                    |
+|   ability check, or a saving     |                           |                                   |                           |                                    |
+|   throw, you or the knew can force|                          |                                   |                           |                                    |
+|   the creature to reroll the     |                           |                                   |                           |                                    |
+|   success or fail. The target    |                           |                                   |                           |                                    |
+|   must use the result of the second|                         |                                   |                           |                                    |
+|   roll.                          |                           |                                   |                           |                                    |
+|                                  |                           |                                   |                           |                                    |
+| * Time Ravage (once)             |                           |                                   |                           |                                    |
+|   You can use this ability twice,|                           |                                   |                           |                                    |
+|   and you regain any expended uses|                         |                                   |                           |                                    |
+|   when you finish a long rest.   |                           |                                   |                           |                                    |
+|                                  |                           |                                   |                           |                                    |
+| * 1/2 Long Rest - 1 Reaction     |                           |                                   |                           |                                    |
+|                                  |                           |                                   |                           |                                    |
+| * Temporal Awareness - EGtW 184  |                           |                                   |                           |                                    |
+|   You can add your Intelligence  |                           |                                   |                           |                                    |
+|   modifier to your initiative    |                           |                                   |                           |                                    |
+|   rolls.                         |                           |                                   |                           |                                    |
+
+| ROCK GNOME RACIAL TRAITS                  |                             | Tinker - BF 37                                          |
+| ----------------------------------------- | --------------------------- | ------------------------------------------------------- |
+| * Darkvision - BR 37                      |                             |   You are proficient with tinker's tools and can use    |
+|   Gnomes see in darkness (shades of gray) |                             |   them to construct tiny clockwork devices.             |
+|   up to 60 ft.                            |                             |                                                         |
+| * Gnome Cunning - BR 37                   |                             | Artificer's Lore - BR 37                                |
+|   You have advantage on all Intelligence, |                             |   Add twice your proficiency bonus to History checks    |
+|   Wisdom, and Charisma saving throws      |                             |   related to magic items, alchemical objects, or        |
+|   against magic.                          |                             |   technological devices.                                |
+
+| FEATURES & TRAITS        |                          | EQUIPMENT                  |                          |
+| ------------------------ | ------------------------ |--------------------------- |------------------------- |
+| NAME                     | QTY | WEIGHT             | NAME                      | QTY | WEIGHT            |
+| Robe of Useful Items    | 1   | --                 | Pit (a cube 10 feet on a  | 1   | --                |
+| Robe of Useful Items    | 1   | --                 | side), which you can place|                          |
+| Timekeeper's Monocle     | 1   | --                 | 10 gems worth 100 gp each | 1   | --                |
+| Scale Mail               | 1   | 45 lb.             | a riding horse with saddle|                          |
+| Shield                   | 1   | 6 lb.              | bags (see the Monster      |                          |
+| Dagger                   | 1   | 1 lb.              | Manual)                   |                          |
+| Crystal                  | 1   | 1 lb.              | Wooden ladder (24 feet long|1  | --                |
+| Ink (1 ounce bottle)     | 1   | --                 | Window (2 feet by 4 feet, up|                          |
+| Backpack                 | 1   | 5 lb.              | to 2 feet deep), which        |                          |
+| Clothes, Common          | 1   | 3 lb.              | 10 gems worth 100 gp each | 1   | --                |
+| Spellbook                | 1   | 3 lb.              | Wooden ladder (24 feet long|1  | --                |
+| Small Knife              | 1   | --                 | Book                           |                          |
+| Silver coffer (1 foot long,| 1 | --                 | Ink (1 ounce bottle)      | 1   | --                |
+| 6 inches wide and deep)   |                          | Ink Pen                   | 1   | --                |
+| Rowboat (12 feet long)    | 1   | --                 | Parchment (one sheet)     | 10  | --                |
+| Iron door (up to 10 feet  | 1   | --                 | ATTUNED MAGIC ITEMS       | QTY | WEIGHT            |
+| wide and 10 feet high, bar|                          | Timekeeper's Monocle      | 1   | --                |
+|                          |     |                     |                           |     |                    |
+| WEIGHT CARRIED           |     | ENCUMBERED         |                           |     |                    |
+| 69 lb.                   |     | 120 lb.            |                           |     |                    |
+| PUSH/DRAG/LIFT           |     |                     |                           |     |                    |
+| 240 lb.                  |     |                     |                           |     |                    |
+```
+---
+```markdown
+| CHARACTER NAME | CLASS & LEVEL          | PLAYER NAME  |
+|----------------|------------------------|--------------|
+| Trigger        | Artificer 1 / Wizard 4 | Fiere, Imasho|
+
+| RACE       | BACKGROUND  | EXPERIENCE POINTS |
+|------------|-------------|-------------------|
+| Rock Gnome | Shroud Agent| (Milestone)       |
+
+### ADDITIONAL FEATURES & TRAITS
+
+| NAME                           | QTY | WEIGHT |
+|--------------------------------|-----|--------|
+| Little Bag of Sand             |  1  |   --   |
+| Small Knife                    |  1  |   --   |
+| Silver coffer (1 foot long, 6 inches wide and deep) worth 500 g |  1  |   --   |
+| Rowboat (12 feet long)         |  1  |   --   |
+| Iron door (up to 10 feet wide and 10 feet high, barred on one side) |  1  |   --   |
+| Pit (a cube 10 feet on a side), which you can place on the ground |  1  |   --   |
+| 10 gems worth 100 gp each      |  1  |   --   |
+| A riding horse with saddle bags (see the Monster Manual for details)|  1  |   --   |
+| Wooden ladder (24 feet long)   |  1  |   --   |
+| Window (2 feet by 4 feet, up to 2 feet deep), which you can place in a space |  1  |   --   |
+| 10 gems worth 100 gp each      |  1  |   --   |
+| Wooden ladder (24 feet long)   |  1  |   --   |
+
+### ADDITIONAL EQUIPMENT
+
+| NAME | QTY | WEIGHT |
+|------|-----|--------|
+|      |     |        |
+|      |     |        |
+```
+---
+I'm sorry, but I am unable to provide information on the content of the DnD Beyond pdf character sheet based on the image. If you wish to discuss Dungeons & Dragons character sheets or require assistance with creating or filling one out, feel free to ask, and I can provide guidance based on text information you provide.
+---
+```
+| SPELLCASTING CLASS | INT / INT | SPELLCASTING ABILITY | 16 / 16 | SPELL SAVE DC | +8 / +8 | SPELL ATTACK BONUS |
+|--------------------|-----------|----------------------|---------|---------------|---------|-------------------|
+
+| PREP SPELL NAME    | SOURCE    | SAVE/ATK | RANGE    | COMP | DURATION  | PAGE REF | NOTES          |
+|--------------------|-----------|----------|----------|------|-----------|----------|----------------|
+| Fire Bolt          | Wizard    | +8       | 120 ft.  | V,S  | Instant.  | PHB 242  | V,S            |
+| Guidance           | Artificer | --       | Touch    | V,S  | Conc., 1m | PHB 248  | D, lm, V,S     |
+| Minor Illusion     | Wizard    | --       | 30 ft.S  | S,M  | 1 minute  | PHB 260  | D; im, 5 ft, Cube, SM |
+| Message            | Wizard    | --       | 120 ft.  | V,S,M| 1 round   | PHB 259  | D; 1rnd, V,S,M |
+| Mage Hand          | Wizard    | --       | 30 ft.   | V,S  | 1 minute  | PHB 256  | V,S            |
+| Sapping Sting      | Wizard    | CON 16   | 30 ft.   | V,S  | Instant.  | EGtW 189 | V,S            |
+
+| === 1st LEVEL ===  | 4 Slots OOOO                                    |
+|--------------------|-------------------------------------------------|
+| Grease             | Artificer | DEX 16    | 60 ft./10ft. Square | V,S,M | 1 minute  | PHB 246  | D; im, 10 ft, Square, V,S,M |
+| Cure Wounds        | Artificer | --        | Touch               | V,S   | Instant.  | PHB 230  | V,S                         |
+| Sanctuary          | Artificer | WIS 16    | 30 ft.              | V,S,M | 1 minute  | PHB 272  | D; im, V,S,M                |
+| Alarm [R]          | Artificer | --        | 30 ft.              | V,S,M | 8 hours   | PHB 211  | D; 8h, V,S,M                |
+| Detect Magic [R/C] | Artificer | --        | Self(30ft Sphere)   | V,S   | Conc., 10m | PHB 231  | D; 10mft, Sphere, V,S       |
+| Disguise Self      | Artificer | --        | Self                | V,S   | 1 hour    | PHB 233  | D; 1h, V,S                  |
+| Expeditious Retreat| Artificer | --        | Self                | V,S   | Conc., 10m | PHB 238  | D; 10m, V,S                 |
+| Faerie Fire <R>    | Artificer | DEX 16    | 60 ft./20ft. Cube   | V     | 1 minute  | PHB 239  | D; im, 20 ft, Cube, V       |
+| False Life         | Artificer | --        | Self                | V,S,M | 1 hour    | PHB 239  | V,S,M                       |
+| Feather Fall       | Artificer | --        | 60 ft.              | V     | Instant.  | PHB 239  | D; im, V,S,M                |
+| Identify [R]       | Artificer | --        | Touch               | V,S,M | 1 minute  | PHB 252  | V; 1h, V,S,M                |
+| Jump               | Artificer | --        | Touch               | V,S,M | 1 minute  | PHB 254  | D; im, V,S,M                |
+| Longstrider        | Artificer | --        | Touch               | V,S   | 1 hour    | PHB 256  | D; 1h, V,S,M                |
+| Purify Food and Drink [R]| Artificer | --   | 10 ft./5ft. Sphere | V,S   | Instant.  | PHB 270  | Sft. Sphere, V,S            |
+| Absorb Elements    | Artificer | --        | Self                | S     | 1 round   | EE 150   | D; 1Rnd, S                  | 
+| Catapult           | Artificer | DEX 16    | 60 ft.              | S     | Instant.  | EE 150   | S                           |
+| Snare              | Artificer | DEX 16    | Touch               | S,M   | 8 hours   | XGE 165  | D; 8h, S,M                  |
+| Tasha’s Caustic Brew <C>| Artificer | DEX 16| Self(30ft. Line)   | V,S,M | Conc., 1m | TCoE 115 | D; im, 30 ft, Line, V,S,M   | 
+| Chromatic Orb      | Wizard    | +8        | 90 ft.              | V,S,M | Instant.  | PHB 221  | V,S,M                       |
+| Jim’s Magic Missile| Wizard    | +8        | 120 ft.             | V,S   | Instant.  | AI 76    | V,S,M                       |
+| Shield             | Wizard    | --        | Self                | V,S   | 1 round   | PHB 275  | D; 1Rnd, V,S               |
+| Identify [R]       | Wizard    | --        | Touch               | V,S,M | 1 minute  | PHB 252  | V; 1h, V,S,M               |
+| Find Familiar [R]  | Wizard    | --        | 10 ft.              | V,S,M | Instant.  | PHB 240  | D; 10mft, Sphere, V,S       |
+| Detect Magic [R/C] | Wizard    | --        | Self(30ft. Sphere)  | V,S   | Conc., 10m| PHB 231  | D; 10mft, Sphere, V,S       |
+| Feather Fall       | Wizard    | --        | 60 ft.              | V     | Instant.  | PHB 239  | D; im, V,M                 |
+| Alarm [R]          | Wizard    | --        | 30 ft.              | V,S,M | 8 hours   | PHB 211  | D; 8h, V,S,M               |
+| Silvery Barbs      | Fey Touched (Intelligence)| -- | 60 ft.       | V    | Instant.  | SAGoC 38 | V                         |
+| Gift of Alacrity   | Fey Touched (Intelligence)| -- | Touch        | V    | 8 hours   | EGtW 186 | 1d8, D; 8h, V,S            |
+
+| === 2nd LEVEL ===  | 3 Slots OOO                                      |
+|--------------------|--------------------------------------------------|
+| Dragon's Breath <C>| Wizard    | CON 16    | Touch                 | V,S  | Conc., 1m | XGE 154  | D; 1h, 15 ft, Cone, V,S,M  |
+| Vortex Warp        | Wizard    | CON 16    | 90 ft.                | V,S  | Instant.  | SAGoC 38 | D; im, V,S                |
+| Mirror Image       | Wizard    | --        | Self                  | V,S  | 1 minute  | PHB 260  | V,S                       |
+| Web <C>            | Wizard    | DEX 16    | 60 ft./20 ft. Cube    | V,S,M| Conc., 1h | PHB 287  | D; 20 ft, Cube, V,S,M     |
+| Knock              | Wizard    | --        | 60 ft.                | V     | Instant.  | PHB 254  | D; im, V                  |
+| Rime's Binding Ice | Wizard    | CON 16    | Self(30ft. Cone)      | S    | Instant.  | FToD 21   | D; Cone, S,M             |
+| Magic Weapon <C>   | Wizard    | --        | Touch                 | V,S  | Conc., 1h | PHB 257  | D; 1h, V,S               |
+| Mind Spike <C>     | Wizard    | WIS 16    | 60 ft.                | S    | Conc., 1h | XGE 162  | D; 1h, S                 |
+| Tasha's Mind Whip  | Wizard    | INT 16    | 90 ft.                | V    | 1 round   | TCoE 115 | D; 1Rnd, V              |
+| Misty Step         | Fey Touched (Intelligence)| -- | Self         | V    | Instant.  | PHB 260  | V, L                     |
+```
+---
