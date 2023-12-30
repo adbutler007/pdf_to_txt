@@ -8,6 +8,7 @@ import io
 import os
 import glob
 import shutil
+from typing import List
 
 app = FastAPI()
 
@@ -83,28 +84,30 @@ async def convert_single(file: UploadFile = File(...)):
 
     return FileResponse(output_file, media_type="text/plain")
 
-@app.get("/convert_directory/{input_dir}")
-async def convert_directory(input_dir: str):
-    # Get all PDF files in the input directory
-    pdf_files = glob.glob(f"./{input_dir}/*.pdf")
-
-    for pdf_file in pdf_files:
+@app.post("/convert_multiple/")
+async def convert_multiple(files: List[UploadFile] = File(...)):
+    for file in files:
         # Initialize markdown content
         markdown_content = ""
 
-        for payload in pdf_to_payload(pdf_file):
+        for payload in pdf_to_payload(file.file):
             response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
             response_json = response.json()
             markdown_content += response_json['choices'][0]['message']['content']
             markdown_content += "\n---\n"  # Append a page break
 
         # Save the markdown content to a file in the ./tmp directory
-        output_file = f"./tmp/{os.path.splitext(os.path.basename(pdf_file))[0]}.txt"
+        output_file = f"./tmp/{os.path.splitext(file.filename)[0]}.txt"
         with open(output_file, 'w') as f:
             f.write(markdown_content)
 
     # Zip the ./tmp directory
     shutil.make_archive("./tmp/output", 'zip', "./tmp")
+
+    # Delete all files in the ./tmp directory
+    files = glob.glob('./tmp/*')
+    for f in files:
+        os.remove(f)
 
     return FileResponse("./tmp/output.zip", media_type="application/zip")
 
