@@ -1,6 +1,8 @@
-from fastapi import FastAPI, UploadFile, File, Response
+from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import HTMLResponse, FileResponse
+from datetime import datetime
 from pdf2image import convert_from_bytes
+from collections import defaultdict
 import base64
 import io
 import os
@@ -61,52 +63,162 @@ async def make_api_request(base64_image):
         return "Request timed out. Please try again."
 
 
-@app.post("/convert_single/")
-async def convert_single(file: UploadFile = File(...)):
-    markdown_content = ""
-    pdf_data = await file.read()
+async def chat_completion(draft_char_sheet):
+    with open('formatting_prompt.txt', 'r') as file:
+        prompt = file.read()
 
-    images = convert_from_bytes(pdf_data, dpi=300)  # Reduced DPI for efficiency
-    for image in images:
-        base64_image = await process_image(image)
-        response_content = await make_api_request(base64_image)
-        markdown_content += response_content + "\n---\n"
+    prompt = prompt + "\n\n" + draft_char_sheet
 
-    output_file = f"./tmp/{os.path.splitext(file.filename)[0]}.txt"
-    async with aiofiles.open(output_file, 'w') as f:
-        await f.write(markdown_content)
+    messages = [
+        {"role": "system", "content": "You are a Dungeons and Dragons character sheet optimizer."},
+        {"role": "user", "content": prompt},
+    ]
 
-    return FileResponse(output_file, media_type="text/plain")
+    payload = {
+        "model": "gpt-4-1106-preview",
+        "messages": messages
+    }
+
+    async with httpx.AsyncClient(timeout=2400.0) as client:  # Increased timeout
+        response = await client.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+        response_dict = response.json()
+        response_out = response_dict['choices'][0]['message']['content']
+        return response_out
 
 @app.post("/convert_multiple/")
 async def convert_multiple(files: List[UploadFile] = File(...)):
+    print(f"Received {len(files)} files for conversion.")
+    # Create a subdirectory in ./tmp for the text files
     os.makedirs("./tmp/txt", exist_ok=True)
-    markdown_contents = {}
+    
+    # Initialize a list to store the images and their associated filenames
+    images = []
+    print("Starting pdf-to-image conversions.")
+    # Convert all PDFs to images
     for file in files:
-        filename = os.path.splitext(file.filename)[0]
-        markdown_contents[filename] = ""
+        print(f"Processing file: {file.filename}")
 
+        # Read the PDF file
         pdf_data = await file.read()
-        images = convert_from_bytes(pdf_data, dpi=300)  # Reduced DPI for efficiency
 
-        for image in images:
-            base64_image = await process_image(image)
-            response_content = await make_api_request(base64_image)
-            markdown_contents[filename] += response_content + "\n---\n"
+        # Convert each page to an image and store it in the list
+        for image in convert_from_bytes(pdf_data, dpi=300):
+            images.append((file.filename, image))
 
+    print(f"Converted all PDFs to images. Total images: {len(images)}")
+
+    # Initialize a dictionary to store the responses
+    responses = {}
+
+    # Process each image
+    tasks = []
+    async with httpx.AsyncClient(timeout=2400.0) as client:
+        for i, (filename, image) in enumerate(images):
+            print(f"Processing image {i+1} of {len(images)} from file: {filename}")
+
+            # Convert image to base64
+            buffered = io.BytesIO()
+            image.save(buffered, format="JPEG")
+            base64_image = base64.b64encode(buffered.getvalue()).decode()
+
+            # Initialize the message content list
+            message_content = [
+                {
+                    "type": "text",
+                    "text": instructions,
+                },
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/jpeg;base64,{base64_image}"
+                    }
+                }
+            ]
+
+            # Construct the payload
+            payload = {
+                "model": "gpt-4-vision-preview",
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": message_content
+                    }
+                ],
+                "max_tokens": 4000
+            }
+
+            # Make the request
+            tasks.append(client.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload))
+
+        # Wait for all tasks to complete
+        responses_raw = await asyncio.gather(*tasks)
+
+        # Process the responses
+        for i, response in enumerate(responses_raw):
+            response_json = response.json()
+            if images[i][0] in responses:
+                responses[images[i][0]] += response_json['choices'][0]['message']['content']
+            else:
+                responses[images[i][0]] = response_json['choices'][0]['message']['content']
+
+    print("Processed all images.")
+
+    # Initialize a dictionary to store the markdown content for each file
+    markdown_contents = defaultdict(str)
+
+    # Aggregate the responses into individual text documents
+    for filename, content in responses.items():
+        markdown_contents[filename] += content
+        markdown_contents[filename] += "\n---\n"  # Append a page break
+
+    print("Aggregated all responses into individual text documents.")
+
+    # Save the markdown content to a file in the ./tmp/txt directory for each file
+    tasks = []
     for filename, markdown_content in markdown_contents.items():
-        output_file = f"./tmp/txt/{filename}.txt"
-        async with aiofiles.open(output_file, 'w') as f:
-            await f.write(markdown_content)
+        # Get current date and time
+        now = datetime.now()
+        # Format as a string
+        now_str = now.strftime("%Y-%m-%d_%H-%M-%S")
+        # Append date and time to filename
+        output_file = f"./tmp/txt/{os.path.splitext(filename)[0]}_{now_str}.txt"
+        with open(output_file, 'w') as f:
+            f.write(markdown_content)
 
+        print(f"Saved markdown content to file: {output_file}")
+
+        # Call chat_completion on the final assembled text
+        tasks.append(chat_completion(markdown_content))
+
+    # Wait for all tasks to complete
+    optimized_contents = await asyncio.gather(*tasks)
+
+    # Write the optimized content to the files
+    for filename, optimized_content in zip(markdown_contents.keys(), optimized_contents):
+        # Get current date and time
+        now = datetime.now()
+        # Format as a string
+        now_str = now.strftime("%Y-%m-%d_%H-%M-%S")
+        # Append date and time to filename
+        output_file = f"./tmp/txt/{os.path.splitext(filename)[0]}_{now_str}_optimized.txt"
+        with open(output_file, 'w') as f:
+            f.write(optimized_content)
+
+    print("Optimized character sheet output.")
+
+    # Zip the ./tmp/txt directory
     zip_file = shutil.make_archive("./tmp/output", 'zip', "./tmp/txt")
+    print(f"Created zip file: {zip_file}")
 
-    # Cleanup
-    for f in glob.glob('./tmp/txt/*'):
+    # Delete all files in the ./tmp/txt directory
+    files = glob.glob('./tmp/txt/*')
+    for f in files:
         os.remove(f)
+
+    print("Deleted all files in the ./tmp/txt directory.")
 
     return FileResponse(zip_file, media_type="application/zip")
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8032, reload=True)

@@ -1,0 +1,69 @@
+Using the template provided below as an exemplar, please reformat the following character sheet into an optimized, readable, and structured format. Ensure all information from the original sheet is accurately transferred to the new sheet, adhering to the layout and style of the template. Prioritize clarity, conciseness, and ease of navigation in the redesigned character sheet. 
+
+Template Exemplar for Reference:
+============
+[Character Name] - [Race] [Class] (Level [Level Number])
+Player Name: [Player Name] | Background: [Background] | Experience Points: [Experience Points]
+
+Basic Information
+- Race: [Race]
+- Class & Level: [Class] [Level]
+- Alignment: [Alignment]
+- Size: [Size]
+- Gender, Age, Height, Weight: [Details]
+- Faith, Skin, Eyes, Hair: [Details]
+
+Ability Scores
+- Strength (STR): [Score] ([Modifier])
+- Dexterity (DEX): [Score] ([Modifier])
+- ...
+
+Hit Points and Hit Dice
+- Max HP: [Max HP]
+- Current HP: [Current HP]
+- Temporary HP: [Temporary HP]
+- Hit Dice: Total [Hit Dice]
+
+Saving Throws and Skills
+- [Skill Name] ([Ability]): [Modifier]
+- ...
+
+Attacks & Spellcasting
+- [Attack Name]: [Hit Modifier] to hit, [Damage] [Damage Type]
+- Spell Save DC: [Spell Save DC]
+- Spell Attack Bonus: [Spell Attack Bonus]
+
+[Class] Features
+- [Feature Name]: [Description]
+- ...
+
+[Race] Racial Traits
+- [Trait Name]: [Description]
+- ...
+
+Equipment
+- [Item], [Item], [Item]...
+- Total Weight Carried: [Weight] lb.
+
+Personality Traits, Ideals, Bonds, Flaws
+- Personality Traits: [Traits]
+- Ideals: [Ideals]
+- Bonds: [Bonds]
+- Flaws: [Flaws]
+
+Allies & Organizations
+- [Organization Name]: [Details]
+
+Character Backstory
+- [Backstory Elements]
+
+Additional Notes
+- [Any other relevant information]
+
+---
+
+*Last Updated: [Date]* | *Sheet by [Player Name]*
+=================
+
+Original Character Sheet to be Reformatted:
+
