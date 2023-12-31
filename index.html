@@ -44,7 +44,7 @@ document.getElementById('upload-form').addEventListener('submit', function(e) {
     formData.append('files', files[i]);
   }
   console.log(formData);
-  fetch('http://localhost:8032/convert_multiple', {
+  fetch('https://pdf-to-txt.replit.app/convert_multiple', {
     method: 'POST',
     body: formData
   })
