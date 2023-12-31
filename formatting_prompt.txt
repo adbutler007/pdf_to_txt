@@ -62,7 +62,7 @@ Additional Notes
 
 ---
 
-*Last Updated: [Date]* | *Sheet by [Player Name]*
+*Last Updated: [Date][Time]* | *Sheet by [Player Name]*
 =================
 
 Original Character Sheet to be Reformatted:

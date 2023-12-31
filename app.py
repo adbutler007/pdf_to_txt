@@ -180,8 +180,9 @@ async def convert_multiple(files: List[UploadFile] = File(...)):
         now = datetime.now()
         # Format as a string
         now_str = now.strftime("%Y-%m-%d_%H-%M-%S")
-        # Append date and time to filename
-        output_file = f"./tmp/txt/{os.path.splitext(filename)[0]}_{now_str}.txt"
+        # Append date and time to content
+        markdown_content += f"\n\nDate and Time: {now_str}"
+        output_file = f"./tmp/txt/{os.path.splitext(filename)[0]}.txt"
         with open(output_file, 'w') as f:
             f.write(markdown_content)
 
@@ -195,12 +196,7 @@ async def convert_multiple(files: List[UploadFile] = File(...)):
 
     # Write the optimized content to the files
     for filename, optimized_content in zip(markdown_contents.keys(), optimized_contents):
-        # Get current date and time
-        now = datetime.now()
-        # Format as a string
-        now_str = now.strftime("%Y-%m-%d_%H-%M-%S")
-        # Append date and time to filename
-        output_file = f"./tmp/txt/{os.path.splitext(filename)[0]}_{now_str}_optimized.txt"
+        output_file = f"./tmp/txt/{os.path.splitext(filename)[0]}.txt"
         with open(output_file, 'w') as f:
             f.write(optimized_content)
 
